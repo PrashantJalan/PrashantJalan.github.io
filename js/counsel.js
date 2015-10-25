@@ -4,7 +4,7 @@
 $.vegas('slideshow', {
       delay:3000,
       backgrounds:[
-        { src:'images/backgrounds/bg1.JPG', fade:1000 },
+        { src:'images/backgrounds/bg1.jpg', fade:1000 },
         { src:'images/backgrounds/bg2.JPG', fade:1000 },
         { src:'images/backgrounds/bg3.jpg', fade:1000 }
       ]
@@ -25,7 +25,7 @@ function preload(arrayOfImages) {
 jQuery(window).load(function() {
   preload([
     'images/backgrounds/bg1.jpg',
-    'images/backgrounds/bg2.jpg',
+    'images/backgrounds/bg2.JPG',
     'images/backgrounds/bg3.jpg'
   ]);
   // will first fade out the loading animation
